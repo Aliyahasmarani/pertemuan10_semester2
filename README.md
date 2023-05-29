@@ -21,20 +21,19 @@ MATKUL  : BASIS DATA
 ### Tampilkan pegawai yang tunjangannya NULL!
 ![table2](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/71fd43ef-5357-43ae-b430-c8ddb31c1d34)
 
-  Dalam contoh diatas, 'pegawai' adalah nama tabel yang berisi data pegawai, dan 'tunjangan' adalah kolom yang menyimpan informasi tunjangan. Klausa WHERE digunakan untuk memfilter baris-baris yang memenuhi kondisi tertentu.
+   diatas, 'pegawai' adalah nama tabel yang berisi data pegawai, dan 'tunjangan' adalah kolom yang menyimpan informasi tunjangan. Klausa WHERE digunakan untuk memfilter baris-baris yang memenuhi kondisi tertentu.
   Klausa IS NULL digunakan untuk memeriksa apakah nilai tunjangan adalah NULL. Dalam contoh praktikum ini, hanya pegawai dengan tunjangan NULL yang akan ditampilkan dalam hasil.
 
 ### Tampilkan pegawai yang tunjangannya tidak NULL!
 ![table3](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/694893c8-d169-4e4b-b725-2c004282d2da)
 
-  Dalam contoh diatas, 'pegawai' adalah nama tabel yang berisi data pegawai, dan 'tunjangan' adalah kolom yang menyimpan informasi tunjangan. Klausa WHERE digunakan untuk memfilter baris-baris yang memenuhi kondisi tertentu.
+  diatas, 'pegawai' adalah nama tabel yang berisi data pegawai, dan 'tunjangan' adalah kolom yang menyimpan informasi tunjangan. Klausa WHERE digunakan untuk memfilter baris-baris yang memenuhi kondisi tertentu.
   Klausa IS NOT NULL digunakan untuk memeriksa apakah nilai tunjangan tidak NULL. Dalam contoh praktikum ini, hanya pegawai dengan tunjangan yang tidak NULL yang akan ditampilkan dalam hasil.
  
 ### Tampilkan/hitung jumlah baris/record tabel pegawai!
 ![table4](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/3bbc5014-5ebc-4000-b5af-8a50c46858c0)
 
-  Dalam contoh diatas, saya menggunakan fungsi COUNT() untuk menghitung jumlah baris atau record dalam tabel "pegawai'. Fungsi COUNT( * ) digunakan untuk menghitung semua semua baris dalam tabel.
-  perintah diatas akan menghasilkan satu kolom dengan nama "jumlah_pegawai" yang akan berisi jumlah baris atau record dalam tabel "pegawai".
+  diatas, saya menggunakan fungsi COUNT() untuk menghitung jumlah baris atau record dalam tabel "pegawai'. Fungsi COUNT( * ) digunakan untuk menghitung semua semua baris dalam tabel.
 
 ### Tampilkan/hitung jumlah total gaji di tabel pegawai!
 ![table5](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/2145490a-f17f-4177-bcec-f228291e3b44)
@@ -55,6 +54,34 @@ MATKUL  : BASIS DATA
 ![table8](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/bf652da1-53a5-4fab-b9a4-55b73379a3f6)
 
    Di atas, saya menggunakan fungsi agregat MAX() untuk mencari gaji terbesar dalam kolom "gaji" dalam tabel "pegawai".
-  
+
+## PRAKTIKUM 2 (HEWAN)
+![hewan](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/2d6e1366-1276-4f05-9d29-f1c770023555)
+
+### Tampilkan jumlah hewan yang dimiliki setiap owner
+![hewan1](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/d219e780-1775-4245-bd84-086c84deac32)
+
+Di atas, saya menggunakan fungsi agregat COUNT() untuk menghitung jumlah hewan untuk setiap pemilik dalam tabel "hewan". Klausa GROUP BY digunakan untuk mengelompokkan hasil berdasarkan kolom "owner".
+
+### Tampilkan jumlah hewan berdasarkan spesies
+![hewan2](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/3d538727-d430-4049-a163-e740342f76fb)
+
+Di atas, saya menggunakan fungsi agregat COUNT() untuk menghitung jumlah hewan untuk setiap pemilik dalam tabel "hewan". Klausa GROUP BY digunakan untuk mengelompokkan hasil berdasarkan kolom "spesies".
+
+### Tampilkan jumlah hewan berdasarkan jenis kelamin
+![hewan3](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/2555d7a9-6fa6-4dfc-b61b-a7f13c7fe4d6)
+
+Di atas, saya menggunakan fungsi agregat COUNT() untuk menghitung jumlah hewan untuk setiap pemilik dalam tabel "hewan". Klausa GROUP BY digunakan untuk mengelompokkan hasil berdasarkan kolom "sex" (jenis kelamin).
+
+### Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin
+![hewan4](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/f5204ddc-97d8-44d0-a6f7-b255405894d6)
+
+### Tampilkan jumlah hewan berdasarkan spesies (cat dan dog saja) dan jenis kelamin
+![hewan5](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/0171f514-7c2f-41d9-bfff-f68174485d37)
+
+Pernyataan di atas akan mengambil data dari tabel "hewan" dan memfilter hanya untuk spesies 'Cat' dan 'Dog'. kemudian, data akan dikelompokkan berdasarkan spesies dan jenis kelamin. Fungsi COUNT() akan digunakan untuk menghitung jumlah hewan dalam setiap kelompok.
+
+### Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja
+![hewan6](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/fd0aae27-01e9-4f76-935d-4af37620ab19)
 
 
