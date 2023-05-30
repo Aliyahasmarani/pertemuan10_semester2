@@ -84,4 +84,9 @@ Pernyataan di atas akan mengambil data dari tabel "hewan" dan memfilter hanya un
 ### Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja
 ![hewan6](https://github.com/Aliyahasmarani/pertemuan10_semester2/assets/115197672/fd0aae27-01e9-4f76-935d-4af37620ab19)
 
+## EVALUASI DAN PERTANYAAN
+### Kesimpulan
 
+- Query Filtering / filter query : sebuah proses penggunaan kondisi tertentu dalam sebuah query untuk membatasi atau memfilter data yang diambil dari basis data.
+- Fungsi Agregat : berfungsi untuk melakukan perhitungan pada sekelompok data dan menghasilkan hasil agregat. fungsi agregat dapat digunakan untuk menghitung total, rata-rata, jumlah, nilai max, nilai min, dan sebagainya.
+- Group by : adalah klausa yang digunakan dalam pernyataan SELECT untuk mengelompokkan baris data berdasarkan satu atau beberapa kolom.
